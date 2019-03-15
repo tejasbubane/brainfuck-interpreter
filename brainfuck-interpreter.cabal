@@ -29,3 +29,5 @@ test-suite tests
   other-modules:       BrainFuck
                      , Source
                      , SourceSpec
+                     , Tape
+                     , TapeSpec
