@@ -26,6 +26,7 @@ test-suite tests
   build-depends:       base
                      , hspec
                      , QuickCheck
+                     , checkers
   other-modules:       BrainFuck
                      , Source
                      , SourceSpec
