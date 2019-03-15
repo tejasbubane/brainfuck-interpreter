@@ -1,8 +1,7 @@
 import Test.Hspec
-import qualified BrainFuck as BF
+import BrainFuck
+import qualified SourceSpec
 
 main :: IO ()
 main = hspec $ do
-  describe "Parsing" $ do
-    it "works" $ do
-      2 `shouldBe` 2
+  SourceSpec.specs
